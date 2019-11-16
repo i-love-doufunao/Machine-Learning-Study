@@ -1,6 +1,5 @@
-from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
-from maxc.Metrics import accuracy_score
+from sklearn.neighbors import KNeighborsClassifier
 
 raw_data_x = [[3.393533211, 2.331273381],
               [3.110073483, 1.781539638],

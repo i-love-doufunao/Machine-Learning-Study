@@ -1,8 +1,6 @@
+import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-import numpy as np
-from kNN.Metrics import accuracy_score
 
 
 def train_test_split_by_concatenate(X, y, split_ratio):
